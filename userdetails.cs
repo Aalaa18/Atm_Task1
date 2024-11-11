@@ -1,6 +1,6 @@
 ﻿public class userdetails
 {
-<<<<<<< HEAD
+
     internal string pass;
     internal double balance;
     internal string email;
