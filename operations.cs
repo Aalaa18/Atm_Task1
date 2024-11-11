@@ -116,9 +116,6 @@ press x to exit
     }
 <<<<<<< HEAD
     internal int count_id = 1, count = 1;
-=======
-    int count_id = 1, count = 1;
->>>>>>> 54c1d5a48c955a04e5ccd482bd8e930815702f35
     public void transfermoney(string sender, string reciever, double amount)
     {
         if (_users.user[sender].max_count > 10)
