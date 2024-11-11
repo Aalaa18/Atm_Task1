@@ -15,15 +15,15 @@ public abstract class savingoperations
 public class operations
 {
     private users _users;
-<<<<<<< HEAD
+
     internal List<TransactionInfo> transactions = new List<TransactionInfo>();
     internal List<TransactionInfo> transhistory = new List<TransactionInfo>();
     internal List<TransactionInfo> non_mange=new List<TransactionInfo>();
-=======
+
     List<TransactionInfo> transactions = new List<TransactionInfo>();
     List<TransactionInfo> transhistory = new List<TransactionInfo>();
     List<TransactionInfo> non_mange=new List<TransactionInfo>();
->>>>>>> 54c1d5a48c955a04e5ccd482bd8e930815702f35
+
     public operations(users users)
     {
         _users = users;
@@ -114,7 +114,7 @@ press x to exit
         }
         return info.balance;
     }
-<<<<<<< HEAD
+
     internal int count_id = 1, count = 1;
     public void transfermoney(string sender, string reciever, double amount)
     {
