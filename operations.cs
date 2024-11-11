@@ -5,12 +5,6 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Xml.Linq;
 
-public abstract class savingoperations
-{
-    internal Stack<(string, string, double, DateTime)> stack = new Stack<(string, string, double, DateTime)>();
-    public abstract void save_date_time(String name, string operation, Double amount);
-    public abstract void display_stack();
-}
 
 public class operations
 {
